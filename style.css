@@ -4,6 +4,9 @@
 .text-shadow{
     text-shadow: 2px 2px 4px #000000;
 }
+.text-shadow-black{
+    text-shadow: 2px 2px 4px #C0C0C0;
+}
 .button:hover{
     background-color: black;
 }
@@ -17,4 +20,22 @@
     justify-content: center;
     text-align: left;
     flex-direction: column;
+}
+
+.footer-height{
+    height: 10vh;
+}
+
+.space-between{
+    justify-content: space-around;
+}
+
+.push-right{
+    padding-left: 20%;
+    padding-top: 8%;
+}
+
+.bangers{
+    font-family: 'Bangers', cursive;
+    font-size: x-large;
 }
