@@ -1,3 +1,20 @@
-.background {
+.background-color {
     background-color: #213A71;
+}
+.text-shadow{
+    text-shadow: 2px 2px 4px #000000;
+}
+.button:hover{
+    background-color: black;
+}
+.image-center{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.words-left {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
 }
